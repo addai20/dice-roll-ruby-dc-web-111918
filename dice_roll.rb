@@ -10,4 +10,4 @@ def roll_arr(arr)
   arr[rand(arr.length) - 1]
 end
 
-puts roll_arr()
+puts roll_arr("a", "b", "c", "d")
