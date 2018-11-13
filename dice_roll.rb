@@ -5,3 +5,9 @@
 def roll
   1 + rand(6)
 end
+
+def roll_arr(arr)
+  arr[rand(arr.length) - 1]
+end
+
+puts roll_arr()
